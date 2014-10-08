@@ -51,7 +51,7 @@ public class JokesList extends Activity implements OnClickListener{
 			insertJokes(0);
 			database.setVersion(1);
 		}
-		for (int i=1;i<1;i++)
+		for (int i=1;i<1; i++)
 			if (database.getVersion() == i) {
 				insertJokes(i);
 				database.setVersion(i+1);
