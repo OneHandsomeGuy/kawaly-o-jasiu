@@ -42,7 +42,7 @@ public class JokesList extends Activity implements OnClickListener{
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		// Layout
 		setContentView(R.layout.jokes_list);
-		// Inicjalizacja
+		// Inicjalizacja z xml
 		initialize();
 		// Baza danych - tworzenie i otwieranie
 		database = openOrCreateDatabase("jokes", 0, null);
