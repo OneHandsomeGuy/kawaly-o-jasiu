@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#FFFFFF" >
+
+    <ImageView
+        android:id="@+id/m_iv_back"
+        android:layout_weight="50"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:src="@drawable/menu_back" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="50"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/m_b_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#BADA55"
+            android:padding="5dp"
+            android:text="Pokaż kawały!" />
+
+        <Button
+            android:id="@+id/m_b_more_apps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#BADA55"
+            android:padding="5dp"
+            android:text="Więcej darmowych aplikacji" />
+
+        <Button
+            android:id="@+id/m_b_rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#BADA55"
+            android:padding="5dp"
+            android:text="Oceń aplikację" />
+    </LinearLayout>
+
+</LinearLayout>
